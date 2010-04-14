@@ -6,7 +6,7 @@ function LoadOnImg( menuid )
 	if (img = document.getElementById(imgname)){
 		img.src = "../images/links/popout_on.gif";
 		img.style.zIndex = 200;
-//		if (navigator.appName != "Microsoft Internet Explorer")
+		if (navigator.appName != "Microsoft Internet Explorer")
 			img.style.marginLeft = 	"153px";
 	}
 }

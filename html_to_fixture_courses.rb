@@ -43,6 +43,8 @@ endrange = data.index('<div id="lower">') - 1907
 real = data[start, endrange-start]
 write.puts( '  description:  "' + real + '"')
 
+write.puts( '  image_path:  "dsd_big.jpg"')
+
 
 [2,3,5,6].each do |id|
   read = File.open("/home/aosalias/www/ctd/www.coconuttreedivers.com/rec/showcourse.php?id=#{ id }", 'r')
@@ -88,6 +90,15 @@ write.puts( '  description:  "' + real + '"')
   endrange = data.index('<div id="lower">') - 1907
   real = data[start, endrange-start]
   write.puts( '  description:  "' + real + '"')
+
+  image_path = case id
+    when 2 then "ow_big.jpg"
+    when 3 then "aow_big.jpg"
+    when 5 then "efr_big.jpg"
+    when 6 then "resc_big.jpg"
+  end
+  write.puts( '  image_path:  "' + image_path + '"')
+
 end
 
 write.close
