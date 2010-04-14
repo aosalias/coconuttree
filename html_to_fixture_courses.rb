@@ -1,5 +1,5 @@
 # Course.first.update_attribute(:description, desc.gsub(/<a .*a>/, "<a href='/courses/1'>PADI Open Water Diver</a>" ))
-
+require 'iconv'
 #!/usr/bin/env ruby
 write = File.open('/home/aosalias/rails/ctd/test/fixtures/courses.yml', 'w')
 
@@ -90,3 +90,4 @@ write.puts( '  description:  "' + real + '"')
   write.puts( '  description:  "' + real + '"')
 end
 
+write.close
