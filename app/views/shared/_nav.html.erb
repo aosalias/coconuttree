@@ -1,0 +1,114 @@
+<div id="links">
+    <div id="links_menu">
+        <table width="163" cellpadding="0" cellspacing="0" border="0">
+            <tr><td><%= link_to 'Home', :controller => :diving, :action => :shop %>
+            </td></tr>
+
+          <tr><td>
+            <%= mouse_over_image 'diving' %>
+            <%= link_to 'Dive Packages', packages_path, :onmouseover => "ShowMenu('diving');", :onmouseout => "HideMenu();" %>
+            <div class="dropdown" id="diving">
+              <%= link_to 'Dive Packages', packages_path, :onmouseover => "ShowMenu('diving');", :onmouseout => "HideMenu();" %>
+              <%= link_to 'Daily Dive Schedule', schedule_path, :onmouseover => "ShowMenu('diving');", :onmouseout => "HideMenu();" %>
+              <%= link_to 'Why Dive With Us?', why_path, :onmouseover => "ShowMenu('diving');", :onmouseout => "HideMenu();" %>
+              <%= link_to 'What We Offer', offer_path, :onmouseover => "ShowMenu('diving');", :onmouseout => "HideMenu();" %>
+              <%= link_to 'Our Boats', boats_path, :onmouseover => "ShowMenu('diving');", :onmouseout => "HideMenu();" %>
+              <%= link_to 'Our Dive Center', center_path, :onmouseover => "ShowMenu('diving');", :onmouseout => "HideMenu();" %>
+            </div>
+          </td></tr>
+            <tr><td>
+              <%= mouse_over_image 'rec' %>
+              <a href="http://www.coconuttreedivers.com/rec/index.php" onmouseover="ShowMenu('rec');" onmouseout="HideMenu();">PADI Dive Courses</a>
+            <div class="dropdown" id="rec">
+              <a href="http://www.coconuttreedivers.com/rec/index.php" onmouseover="ShowMenu('rec');" onmouseout="HideMenu();">PADI Dive Courses</a>
+            <a href="http://www.coconuttreedivers.com/rec/showcourse.php?id=1" onmouseover="ShowMenu('rec');" onmouseout="HideMenu();">Discover Scuba Diving</a><a href="http://www.coconuttreedivers.com/rec/showcourse.php?id=2" onmouseover="ShowMenu('rec');" onmouseout="HideMenu();">Open Water</a><a href="http://www.coconuttreedivers.com/rec/showcourse.php?id=3" onmouseover="ShowMenu('rec');" onmouseout="HideMenu();">Advanced Open Water</a><a href="http://www.coconuttreedivers.com/rec/showcourse.php?id=5" onmouseover="ShowMenu('rec');" onmouseout="HideMenu();">Emergency First Response</a><a href="http://www.coconuttreedivers.com/rec/showcourse.php?id=6" onmouseover="ShowMenu('rec');" onmouseout="HideMenu();">Rescue Diver</a></div></td></tr>
+
+            <tr><td>
+              <%= mouse_over_image 'spec' %>
+              <a href="http://www.coconuttreedivers.com/spec/index.php" onmouseover="ShowMenu('spec');" onmouseout="HideMenu();">Specialty Courses</a>
+            <div class="dropdown" id="spec"><a href="http://www.coconuttreedivers.com/spec/index.php" onmouseover="ShowMenu('spec');" onmouseout="HideMenu();">Specialty Courses</a>
+            <a href="http://www.coconuttreedivers.com/spec/showcourse.php?id=4" onmouseover="ShowMenu('spec');" onmouseout="HideMenu();">Enriched Air Nitrox</a><a href="http://www.coconuttreedivers.com/spec/showcourse.php?id=12" onmouseover="ShowMenu('spec');" onmouseout="HideMenu();">Deep Diver</a><a href="http://www.coconuttreedivers.com/spec/showcourse.php?id=8" onmouseover="ShowMenu('spec');" onmouseout="HideMenu();">Wreck Diver</a><a href="http://www.coconuttreedivers.com/spec/showcourse.php?id=10" onmouseover="ShowMenu('spec');" onmouseout="HideMenu();">Underwater Photographer</a><a href="http://www.coconuttreedivers.com/spec/showcourse.php?id=9" onmouseover="ShowMenu('spec');" onmouseout="HideMenu();">Underwater Navigator</a><a href="http://www.coconuttreedivers.com/spec/showcourse.php?id=11" onmouseover="ShowMenu('spec');" onmouseout="HideMenu();">Peak Performance Buoyancy</a></div></td></tr>
+            <tr><td>
+              <%= mouse_over_image 'pro' %>
+              <a href="http://www.coconuttreedivers.com/pro/index.php" onmouseover="ShowMenu('pro');" onmouseout="HideMenu();">Go Pro</a>
+            <div class="dropdown" id="pro"><a href="http://www.coconuttreedivers.com/pro/index.php" onmouseover="ShowMenu('pro');" onmouseout="HideMenu();">Go Pro</a>
+            <a href="http://www.coconuttreedivers.com/pro/showcourse.php?id=7" onmouseover="ShowMenu('pro');" onmouseout="HideMenu();">Divemaster Internship</a><a href="http://www.coconuttreedivers.com/pro/showcourse.php?id=14" onmouseover="ShowMenu('pro');" onmouseout="HideMenu();">Assistant Instructor</a><a href="http://www.coconuttreedivers.com/pro/showcourse.php?id=15" onmouseover="ShowMenu('pro');" onmouseout="HideMenu();">Open Water Scuba Instructor</a><a href="http://www.coconuttreedivers.com/pro/showcourse.php?id=16" onmouseover="ShowMenu('pro');" onmouseout="HideMenu();">Master Scuba Diver Trainer</a><a href="http://www.coconuttreedivers.com/pro/showcourse.php?id=17" onmouseover="ShowMenu('pro');" onmouseout="HideMenu();">IDC Staff Instructor</a></div></td></tr>
+
+            <tr><td>
+              <%= mouse_over_image 'tec' %>
+              <a href="http://www.coconuttreedivers.com/tec/index.php" onmouseover="ShowMenu('tec');" onmouseout="HideMenu();">Tec Diving</a>
+            <div class="dropdown" id="tec"><a href="http://www.coconuttreedivers.com/tec/index.php" onmouseover="ShowMenu('tec');" onmouseout="HideMenu();">Tec Diving</a>
+            <a href="http://www.coconuttreedivers.com/tec/showcourse.php?id=18" onmouseover="ShowMenu('tec');" onmouseout="HideMenu();">Discover Tec Diving</a><a href="http://www.coconuttreedivers.com/tec/showcourse.php?id=19" onmouseover="ShowMenu('tec');" onmouseout="HideMenu();">DSAT Tec Apprentice</a><a href="http://www.coconuttreedivers.com/tec/showcourse.php?id=20" onmouseover="ShowMenu('tec');" onmouseout="HideMenu();">DSAT Tec Deep</a></div></td></tr>
+
+            <tr><td><%= link_to 'PADI e-Learning', elearning_path %></td></tr>
+            <tr><td><a href="http://www.coconuttreedivers.com/calc/index.php">Course Calculator</a></td></tr>
+
+            <tr><td>
+              <%= mouse_over_image 'crew' %>
+              <a href="http://www.coconuttreedivers.com/crew/index.php" onmouseover="ShowMenu('crew');" onmouseout="HideMenu();">Our Crew</a>
+            <div class="dropdown" id="crew"><a href="http://www.coconuttreedivers.com/crew/index.php" onmouseover="ShowMenu('crew');" onmouseout="HideMenu();">Our Crew</a>
+
+            <a href="http://www.coconuttreedivers.com/crew/index.php#Management" onmouseover="ShowMenu('crew');" onmouseout="HideMenu();">Management</a><a href="http://www.coconuttreedivers.com/crew/index.php#Captains" onmouseover="ShowMenu('crew');" onmouseout="HideMenu();">Captains</a><a href="http://www.coconuttreedivers.com/crew/index.php#Instructors" onmouseover="ShowMenu('crew');" onmouseout="HideMenu();">Instructors</a><a href="http://www.coconuttreedivers.com/crew/index.php#Support_Staff" onmouseover="ShowMenu('crew');" onmouseout="HideMenu();">Support Staff</a><a href="http://www.coconuttreedivers.com/crew/index.php#Divemaster_Interns" onmouseover="ShowMenu('crew');" onmouseout="HideMenu();">Divemaster Interns</a></div></td></tr>
+            <tr><td>
+              <%= mouse_over_image 'grads' %>
+              <a href="http://www.coconuttreedivers.com/grads/index.php" onmouseover="ShowMenu('grads');" onmouseout="HideMenu();">Our Graduates</a>
+            <div class="dropdown" id="grads"><a href="http://www.coconuttreedivers.com/grads/index.php" onmouseover="ShowMenu('grads');" onmouseout="HideMenu();">Our Graduates</a>
+            <a href="http://www.coconuttreedivers.com/grads/index.php#leader" onmouseover="ShowMenu('grads');" onmouseout="HideMenu();">Cult Leaders</a><a href="http://www.coconuttreedivers.com/grads/index.php#idc" onmouseover="ShowMenu('grads');" onmouseout="HideMenu();">IDC Graduates</a><a href="http://www.coconuttreedivers.com/grads/index.php#dm" onmouseover="ShowMenu('grads');" onmouseout="HideMenu();">Divemaster Graduates</a><a href="http://www.coconuttreedivers.com/grads/index.php#tec" onmouseover="ShowMenu('grads');" onmouseout="HideMenu();">Roatan Tec Team Graduates</a><a href="http://www.coconuttreedivers.com/grads/index.php#stamina" onmouseover="ShowMenu('grads');" onmouseout="HideMenu();">Stamina Test Perfect 20 Club</a></div></td></tr>
+            <tr><td>
+              <%= mouse_over_image 'sites' %>
+              <a href="http://www.coconuttreedivers.com/sites/index.php" onmouseover="ShowMenu('sites');" onmouseout="HideMenu();">Roatan Dive Sites</a>
+
+            <div class="dropdown" id="sites"><a href="http://www.coconuttreedivers.com/sites/index.php" onmouseover="ShowMenu('sites');" onmouseout="HideMenu();">Roatan Dive Sites</a>
+            <a href="http://www.coconuttreedivers.com/sites/showlocation.php?locationid=1" onmouseover="ShowMenu('sites');" onmouseout="HideMenu();">Shark Dive</a><a href="http://www.coconuttreedivers.com/sites/showlocation.php?locationid=2" onmouseover="ShowMenu('sites');" onmouseout="HideMenu();">South Shore</a><a href="http://www.coconuttreedivers.com/sites/showlocation.php?locationid=3" onmouseover="ShowMenu('sites');" onmouseout="HideMenu();">The Point</a><a href="http://www.coconuttreedivers.com/sites/showlocation.php?locationid=4" onmouseover="ShowMenu('sites');" onmouseout="HideMenu();">West Bay Walls</a><a href="http://www.coconuttreedivers.com/sites/showlocation.php?locationid=5" onmouseover="ShowMenu('sites');" onmouseout="HideMenu();">West End Shallows</a><a href="http://www.coconuttreedivers.com/sites/showlocation.php?locationid=6" onmouseover="ShowMenu('sites');" onmouseout="HideMenu();">West End Walls</a><a href="http://www.coconuttreedivers.com/sites/showlocation.php?locationid=7" onmouseover="ShowMenu('sites');" onmouseout="HideMenu();">Seagrape Ironshore</a><a href="http://www.coconuttreedivers.com/sites/showlocation.php?locationid=8" onmouseover="ShowMenu('sites');" onmouseout="HideMenu();">North Shore Walls</a><a href="http://www.coconuttreedivers.com/sites/showlocation.php?locationid=9" onmouseover="ShowMenu('sites');" onmouseout="HideMenu();">Anthony's Key</a><a href="http://www.coconuttreedivers.com/sites/showlocation.php?locationid=10" onmouseover="ShowMenu('sites');" onmouseout="HideMenu();">Sandy Bay Canyons</a><a href="http://www.coconuttreedivers.com/sites/showlocation.php?locationid=11" onmouseover="ShowMenu('sites');" onmouseout="HideMenu();">Odyssey Wreck</a></div></td></tr>
+            <tr><td>
+              <%= mouse_over_image 'roatan' %>
+              <a href="http://www.coconuttreedivers.com/roatan/index.php" onmouseover="ShowMenu('roatan');" onmouseout="HideMenu();">About Roatan</a>
+            <div class="dropdown" id="roatan"><a href="http://www.coconuttreedivers.com/roatan/index.php" onmouseover="ShowMenu('roatan');" onmouseout="HideMenu();">About Roatan</a>
+
+            <a href="http://www.coconuttreedivers.com/roatan/reef.php" onmouseover="ShowMenu('roatan');" onmouseout="HideMenu();">Roatan's Reef</a><a href="http://www.coconuttreedivers.com/roatan/history.php" onmouseover="ShowMenu('roatan');" onmouseout="HideMenu();">History of Roatan</a><a href="http://www.coconuttreedivers.com/roatan/westend.php" onmouseover="ShowMenu('roatan');" onmouseout="HideMenu();">About West End</a><a href="http://www.coconuttreedivers.com/roatan/hotels.php" onmouseover="ShowMenu('roatan');" onmouseout="HideMenu();">Hotels and Accomodations</a><a href="http://www.coconuttreedivers.com/roatan/restaurants.php" onmouseover="ShowMenu('roatan');" onmouseout="HideMenu();">Restaurants and Bars</a><a href="http://www.coconuttreedivers.com/roatan/activities.php" onmouseover="ShowMenu('roatan');" onmouseout="HideMenu();">Other Activities</a><a href="http://www.coconuttreedivers.com/roatan/links.php" onmouseover="ShowMenu('roatan');" onmouseout="HideMenu();">Useful Links</a><a href="http://www.coconuttreedivers.com/roatan/faqs.php" onmouseover="ShowMenu('roatan');" onmouseout="HideMenu();">Frequently Asked Questions</a></div></td></tr>
+            <tr><td>
+              <%= mouse_over_image 'photos' %>
+              <a href="http://www.coconuttreedivers.com/photos/index.php" onmouseover="ShowMenu('photos');" onmouseout="HideMenu();">Photo Gallery</a>
+            <div class="dropdown" id="photos"><a href="http://www.coconuttreedivers.com/photos/index.php" onmouseover="ShowMenu('photos');" onmouseout="HideMenu();">Photo Gallery</a>
+            <a href="http://www.coconuttreedivers.com/photos/showgallery.php?galleryid=13" onmouseover="ShowMenu('photos');" onmouseout="HideMenu();">Scuba Steve's Shots</a><a href="http://www.coconuttreedivers.com/photos/showgallery.php?galleryid=2" onmouseover="ShowMenu('photos');" onmouseout="HideMenu();">Around the Shop</a><a href="http://www.coconuttreedivers.com/photos/showgallery.php?galleryid=8" onmouseover="ShowMenu('photos');" onmouseout="HideMenu();">Around West End</a><a href="http://www.coconuttreedivers.com/photos/showgallery.php?galleryid=1" onmouseover="ShowMenu('photos');" onmouseout="HideMenu();">Aquatic Life</a><a href="http://www.coconuttreedivers.com/photos/showgallery.php?galleryid=10" onmouseover="ShowMenu('photos');" onmouseout="HideMenu();">Marco's pics</a></div></td></tr>
+
+            <tr><td><a href="http://www.coconuttreedivers.com/news/index.php">News Updates</a></td></tr>
+            <tr><td><a href="http://www.coconuttreedivers.com/testimonials/index.php">Testimonials</a></td></tr>
+            <tr><td><a href="http://www.coconuttreedivers.com/contact/index.php">Contact Us</a></td></tr>
+        </table>
+    </div>
+
+    <div id="links_ads">
+        <a href="http://www.padi.com" title="PADI 5-Star Instructor Development Dive Resort with Nitrox and Trimix"><img src="http://www.coconuttreedivers.com/Templates/images/padi_five_star.gif" width="150" height="100" alt="PADI 5-Star Instructor Development Dive Resort with Nitrox and Trimix" border="0" /></a>
+
+
+        <div id="roatan_weather">
+            <a href="http://www.wunderground.com/global/stations/78703.html?bannertypeclick=miniWeather2" target="_blank"><img src="http://weathersticker.wunderground.com/weathersticker/miniWeather2_both_cond/language/www/global/stations/78703.gif" height="50" width="150" alt="Weather for Roatan, Honduras"></a>
+        </div>
+
+        <a href="http://www.roatanmarinepark.com" title="Roatan Marine Park"><img src="http://www.coconuttreedivers.com/Templates/images/roatanmarinepark.gif" width="150" height="150" alt="Roatan Marine Park" border="0" /></a>
+
+        <a href="https://secure.groundspring.org/dn/index.php?aid=11862" title="Help the Children of Roatan with your donations to SOL International Foundation"><img src="http://www.coconuttreedivers.com/Templates/images/donate_now_black.jpg" width="150" height="200" alt="Donate to SOL International Foundation through Groundspring.org" border="0" /></a>
+
+
+        <a href="http://www.coconuttreedivers.com/admin/index.php">Administrative Options</a>
+        <a href="http://www.coconuttreedivers.com/rss.xml">RSS Feed <img src="http://www.coconuttreedivers.com/Templates/icons/rss-feed.gif" width="16" height="16" border="0" alt="Subscribe to our RSS Feed" /></a>
+        <a href="http://www.coconuttreedivers.com/sitemap.xml">Sitemap XML</a>
+        <a href="http://www.coconuttreedivers.com//elearning/index.php?naked=yes">View Text-Only</a>
+
+    </div>
+
+
+    <div id="links_bottom"></div>
+</div>
+
+<!--<script language="javascript" type="text/javascript" src="http://www.coconuttreedivers.com/Templates/menu.js"></script>-->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-6420029-3");
+pageTracker._trackPageview();
+</script>

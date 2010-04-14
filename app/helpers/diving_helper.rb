@@ -1,0 +1,2 @@
+module DivingHelper
+end

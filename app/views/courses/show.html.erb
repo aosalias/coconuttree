@@ -1,0 +1,62 @@
+
+   		    <div class="prevnext"><span id="prev"><a href="http://www.coconuttreedivers.com/contact/index.php">&lt; Contact Us</a></span>
+<span id="next"><a href="http://www.coconuttreedivers.com/diving/index.php">Dive Packages &gt;</a></span>
+</div>                        
+			<a name="top"></a>
+            
+			
+
+	
+
+<h1><%= @course.title %></h1>
+
+<script language="javascript"><!--
+function PopupWindow(url, width, height){
+newwindow = window.open(url,"fullpic","height="+height+",width="+width+",toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,copyhistory=no,resizable=yes");
+if (window.focus) {
+newwindow.focus();
+}
+ return false;
+}                                                                                                                           h
+ //--></script>
+<a name="dsd_big.jpg"></a><div class="drawpicture" style="position: relative; width: 500px; height: 350px; margin: 10px 0px;"><a onClick="PopupWindow(<%= @course.image_path %>,500,350);"><%= image_tag("courses/" + @course.image_path, :width => "500", :height=>"350", :alt=>"", :border=>"0") %></div>
+
+
+<!-- Begin table formatter -->
+
+<!-- Adding table formatter stylesheets -->
+<link href="http://www.coconuttreedivers.com/TIREngine/formatters/table/TableFormatter.css" type="text/css" rel="stylesheet" />
+<link href="http://www.coconuttreedivers.com/TIREngine/formatters/table/darkblue/styles.css" type="text/css" rel="stylesheet" />
+
+<!-- Adding table formatter -->
+<div class="tableformatter" style="position: relative; float: right;">
+<table width="240" cellspacing="0" cellpadding="0" border="0" class="darkblue">
+<tr id="row0" name="row0">
+<a name="row0"></a><th class="oddth" colspan="2" align="center" valign="top">Course Details</th>
+</tr>
+<tr id="row1" name="row1">
+<a name="row1"></a><td class="oddrow_oddcol" colspan="1" align="right" valign="top"><b>Time:</b></td>
+<td class="oddrow_evencol" colspan="1" align="left" valign="top"><%= @course.time %></td>
+</tr>
+<tr id="row2" name="row2">
+<a name="row2"></a><td class="evenrow_oddcol" colspan="1" align="right" valign="top"><b>Course Price:</b></td>
+<td class="evenrow_evencol" colspan="1" align="left" valign="top"><%= @course.course_price %></td>
+</tr>
+<tr id="row3" name="row3">
+<a name="row3"></a><td class="oddrow_oddcol" colspan="1" align="right" valign="top"><b>Prerequisites:</b></td>
+<td class="oddrow_evencol" colspan="1" align="left" valign="top"><%= @course.prereqs %></td>
+</tr>
+<tr id="row4" name="row4">
+<a name="row4"></a><td class="evenrow_oddcol" colspan="2" align="center" valign="top"><a href="../calc/index.php" title="Course Price Calculator">Calculate the Course Price</a></td>
+</tr>
+<tr id="row5" name="row5">
+<a name="row5"></a><th class="oddth" colspan="2" align="center" valign="top"><a href="../contact/index.php?subject=rec">Reserve Now!</a></th>
+</tr>
+</table>
+</div>
+<!-- End table formatter -->
+<%= @course.description %>
+
+<div class="prevnext"><span id="prev"><a href="http://www.coconuttreedivers.com/contact/index.php">&lt; Contact Us</a></span>
+<span id="next"><a href="http://www.coconuttreedivers.com/diving/index.php">Dive Packages &gt;</a></span>
+</div>            

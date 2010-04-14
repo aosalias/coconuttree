@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Coconut Tree Divers - PADI 5-Star IDC Dive Resort on Roatan, Honduras - scuba diving courses, divemaster internships, instructor development, tec diving, and more!</title>
+    <!-- style sheet -->
+    <!--<link rel="stylesheet" href="http://www.coconuttreedivers.com/Templates/template.css" type="text/css" media="screen" />-->
+    <!--<link rel="stylesheet" href="http://www.coconuttreedivers.com/Templates/print.css" type="text/css" media="print" />-->
+
+    <%= stylesheet_link_tag 'template', 'styles', 'TableFormatter' %>
+    <%= javascript_include_tag 'menu' %>
+
+    <!-- meta tags -->
+    <meta name="author" content="Steve Craig - steve@thescubageek.com" />
+    <meta name="description" content="The #1 PADI Scuba Diving Training Center on Roatan, Honduras: scuba diving courses, divemaster internships, instructor development, tec diving, and more!" />
+    <meta name="keywords" content="roatan scuba diving honduras divemaster instructor idc rescue PADI course open water nitrox enriched air internship development pro professional tec bay islands caribbean west end marine park cruise ship island utila fish sea aquatic shark dolphin coral beach reef hotel vacation holiday rental tour" />
+    <link rel="icon" href="http://www.coconuttreedivers.com/favicon.ico" />
+    <!-- end meta tags -->
+
+</head>
+
+<body>
+    <!--<div id="container">-->
+      <%- flash.each do |name, msg| -%>
+        <%= content_tag :div, msg, :id => "flash_#{name}" %>
+      <%- end -%>
+      
+      <%- if show_title? -%>
+        <h1><%=h yield(:title) %></h1>
+      <%- end -%>
+      <div id="frame">
+        <%= render :partial => 'shared/header' %>
+        <div id="body">
+          <%= render :partial => 'shared/sub_header' %>
+          <div id="center">
+                <%= yield %>
+                <%= render :partial => 'shared/bottom_nav' %>
+            </div>
+            <%= render :partial => 'shared/footer' %>
+        </div>
+        <%= render :partial => 'shared/nav' %>
+      </div>
+    <!--</div>-->
+  </body>
+</html>

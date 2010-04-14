@@ -1,0 +1,405 @@
+/*****************************/
+/* Main body styles
+/*****************************/
+body
+{
+	background: white;
+	font-family: "Times New Roman", Times, serif;	
+	color:#000000;
+	margin-left: 10%;
+	width: 800px;
+	height: 100%;
+	font-size: 12pt;		
+}
+
+p
+{
+	text-align: left;
+}
+
+a 
+{
+	color:#D61921;
+	text-decoration:underline;
+}
+
+a:hover 
+{
+	color:#000000;
+	text-decoration: underline;
+}
+
+hr
+{
+	border: 1px solid #000000;
+}
+
+h1, h2, h3
+{
+	text-align: center;
+}
+
+
+/*****************************/
+/* Site frame
+/*****************************/
+#frame
+{
+	position: relative;
+	text-align:left;
+	top: 0px; 
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#bg_block
+{
+	position: absolute;
+	width: 748px;
+	height: 500px;
+	top: 180px;
+	left: 35px;
+	z-index: 0;
+	display: none;
+	visibility:hidden;
+}
+
+img
+{
+	
+}
+
+/*****************************/
+/** 	HEADER				**/
+/*****************************/
+
+#header
+{
+	display: none;
+	visibility: hidden;
+}
+
+/*****************************/
+/** 	LINKS				**/
+/*****************************/
+
+#google_ads
+{
+	text-align: center;
+	width: 130px;
+	float: left;
+	display: none;
+}
+
+#links
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 180px 0px 0px 35px;
+	vertical-align: middle;
+	width: 748px;
+	display: none;
+}
+
+/*****************************/
+/** 	BODY				**/
+/*****************************/
+
+#body
+{
+	position: absolute;
+/*	margin: 145px 0px 0px 198px;*/
+/*	width: 564px; */
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	top: 0px;
+	left: 0px;
+}
+
+#body #upper
+{
+	position: relative;
+	width: 564px;	
+	height: 35px;
+	background-color: #dadada;	
+	border: none;
+	display: none;
+}
+#body #center
+{
+	background: white;
+	position:absolute;	
+	width: 520px;
+	color: #000;
+	top: 0px;
+}
+
+#body #lower
+{
+	display: none;
+	position: relative;
+	background-color: #dadada;
+	font-size: 10px;
+	border: none;
+}
+
+/*****************************/
+/* picture styles
+/*****************************/
+
+.drawpicture
+{
+	position: relative;
+	z-index: 20;
+	border: 2px solid #000;
+}
+
+.drawpicture a:hover
+{
+	filter:alpha(opacity=85);
+	-moz-opacity:0.85;
+	opacity:0.85;	
+}
+
+.drawpicture #picture
+{
+	z-index: 20;
+	position: relative;
+}
+
+.drawpicture .corner
+{
+	width: 6px;
+	height: 6px;
+	border: none;
+	display: block;
+	position: absolute;
+	z-index: 40;	
+}
+
+/*****************************/
+/* Text styles
+/*****************************/
+.italicized
+{
+	font-style: italic;
+	font-weight: none;
+}
+
+.reqd
+{
+	font-style: italic;
+	color: #ff0000;
+}
+
+.title
+{
+	position: relative;
+	width: 100%;
+	display: block;
+	font-size: 24px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.subtitle
+{
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: bold;
+}
+
+.subinfo
+{
+	font-size: 14px;
+	font-style: italic;
+}
+
+.indented
+{
+	text-indent: -10px;
+	padding-left: 10px;
+}
+
+.indented:first-line
+{
+	text-indent: -10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.caption
+{
+	font-size: 12px;
+	font-style: italic;
+	background-color: #ffffff;
+	text-align: center;
+	display: block;
+}
+
+#updates
+{
+	float: right;
+	padding: 5px 5px;
+}
+
+.totop
+{
+	text-align: right;
+	font-size: 11px;
+}
+
+.reservenow
+{
+font-size: 16px; 
+font-style: italic; 
+font-weight: bold; 
+text-align: center;
+height: 36px;
+clear: both;
+}
+
+.reservenow a
+{
+	position: relative;
+	color: #fff;
+	background: #000 url(formatters/images/table/darkblue/oddth.gif) center top repeat-x;
+	padding: 0px 10px;
+	border: 2px solid #000;
+	line-height: 36px;
+	height: 36px;
+	display: block;
+}
+
+.reservenow a:hover
+{
+	background: #000 url(formatters/images/table/darkblue/eventh.gif) center top repeat-x;
+	color: #D61921;
+	text-decoration: none;
+}
+
+/******************************/
+/**** Nav button		******/
+/******************************/
+
+.navbox
+{
+	border: 2px solid #000;
+	width: 520px;
+	clear: both;
+}
+
+.nav
+{
+	position: relative;
+	clear: both;
+	width: 520px;
+	height: 150px;
+	z-index: 1;
+}
+
+.nav #picture
+{
+	position: absolute;
+	background-color: #dadada;
+	top: 0px;
+	left: 0px;
+	width: 156px;
+	height: 150px;	
+	z-index: 5;
+	display: none;
+}
+
+.nav #navtitle
+{
+	position: absolute;
+	background: #000000;
+	color: #ffffff; 
+	font-size: 20px;
+	height: 36px; 
+	line-height: 36px; 
+	font-weight: bold;
+	top: 0px;
+	left: 0px;
+	width: 490px;
+	z-index: 3;
+	padding-left: 30px;
+}
+
+.nav #navtitle a
+{
+	color: #ffffff; 
+}
+
+.nav #navtitle a:hover
+{
+	color: #D61921; 
+}
+
+.nav #blurb
+{
+	position: absolute;
+	display: block;
+	background:white;
+	padding: 8px 4px 5px 0px;
+	font-size: 12px;
+	height: 101px;
+	width: 360px;
+	top: 36px;
+	left: 50px;
+	z-index: 2;
+	text-align: justify;
+}
+
+.nav #blurb #more
+{
+	float: right;
+	clear: left;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+/************************************/
+/* PREV/NEXT
+/************************************/
+
+.prevnext
+{
+	position: relative;
+	font-size: 11px;
+	z-index: 100;
+	padding: 10px 0px;
+	clear: both;
+	text-align: center;
+}
+
+#prev
+{
+	position: relative;
+	float: left;
+	text-align: left;
+}
+
+#next
+{
+	position: relative;
+	float: right;
+	text-align: right;
+}
+
+#map
+{
+	border: 2px solid #000;
+}
+
+
+
+
+
+

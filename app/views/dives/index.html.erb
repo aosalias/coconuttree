@@ -1,0 +1,17 @@
+<% title "Dives" %>
+
+<table>
+  <tr>
+    <th>Name</th>
+  </tr>
+  <% for dives in @dives %>
+    <tr>
+      <td><%=h dives.name %></td>
+      <td><%= link_to "Show", dives %></td>
+      <td><%= link_to "Edit", edit_dives_path(dives) %></td>
+      <td><%= link_to "Destroy", dives, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Dives", new_dives_path %></p>

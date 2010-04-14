@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tableformatter table
+{
+	border-right: 2px solid #000;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-left: none;
+}
+
+.tableformatter th
+{
+	text-align: center;
+	font:Georgia, "Times New Roman", Times, serif;	
+	background-color: #000;
+	font-size: 14px;
+	color: #fff;
+	font-style: italic;
+	line-height: 24px;
+	border-left: 2px solid #000;
+	border-right: none;
+	border-top: 1px solid #000;	
+	border-bottom: none;
+}
+
+.tableformatter th input, textarea, select
+{
+	border-top: 1px solid #666;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	border-left: 1px solid #666;			
+	padding: 1px 1px;
+}
+
+.tableformatter input, textarea, select
+{
+	border: 1px solid #054e92;
+	padding: 1px 1px;
+}
+
+.tableformatter th a:hover
+{
+	color: #dadada;
+}
+
+.tableformatter td
+{
+	border-left: 2px solid #000;
+	border-right: none;
+	border-top: 1px solid #000;	
+	border-bottom: 1px solid #000;	
+}
+
+.darkblue .oddth
+{
+	background: url(oddth.gif) repeat-x top left #000;
+}
+
+.darkblue .eventh
+{
+	background: url(eventh.gif) repeat-x top left #000;
+}
+
+.darkblue .oddrow_oddcol
+{
+	background: url(menu_light.gif) repeat-x top left #fff;
+	color: #000;	
+}
+
+.darkblue .evenrow_oddcol
+{
+	background: url(menu_medium.gif) repeat-x top left #e5e3ec;
+	color: #000;		
+}
+
+.darkblue .evenrow_evencol
+{
+	background: url(menu_medium.gif) repeat-x top left #e5e3ec;
+	color: #000;
+}
+
+.darkblue .oddrow_evencol
+{
+	background: url(menu_dark.gif) repeat-x top left #d1cdde;
+	color: #000;	
+}
+
+.reqd
+{
+	color: #f00;
+}

@@ -1,0 +1,26 @@
+.tableformatter table
+{
+	position: relative;
+	margin: 2px 2px;
+}
+
+.tableformatter th
+{
+	padding: 2px 2px;
+}
+
+.reqd
+{
+	color: #f00;
+}
+
+.tableformatter td
+{
+	padding: 2px 4px;
+}
+
+.tableformatter label
+{
+	font-weight: bold;
+	text-align: right;
+}
