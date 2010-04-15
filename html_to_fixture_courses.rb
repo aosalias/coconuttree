@@ -8,7 +8,7 @@ write = File.open('/home/aosalias/rails/ctd/test/fixtures/courses.yml', 'w')
 
 
 read = File.open("/home/aosalias/www/ctd/www.coconuttreedivers.com/rec/showcourse.php?id=1&naked=yes", 'r')
-data = read.read
+data = Iconv.conv('UTF-8', 'LATIN1', read.read)
 
 start = data.index('<h1>') + 4
 endrange = data.index('</h1>')
@@ -48,12 +48,12 @@ write.puts( '  description:  "' + real + '"')
 
 write.puts( '  image_path:  "dsd_big.jpg"')
 
-['rec', 'pro', 'tec'].each do |path|
+['rec', 'pro', 'tec', 'spec'].each do |path|
   (1..20).each do |id|
     data = nil
     begin
       read = File.open("/home/aosalias/www/ctd/www.coconuttreedivers.com/#{ path }/showcourse.php?id=#{ id }", 'r')
-      data = read.read
+      data = Iconv.conv('UTF-8', 'LATIN1', read.read)
     rescue
       nil
     end
@@ -111,7 +111,7 @@ write.puts( '  image_path:  "dsd_big.jpg"')
       start = data.index('<!-- End table formatter -->') + 28
       endrange = data.index('<div id="lower">') - 1907
       real = data[start, endrange-start]
-      write.puts( ('  description:  "' + real.gsub(/\n/,"\n    ") + '"').to_yaml)
+      write.puts( ('  description:  "' + real + '"').to_yaml)
     end
   end
 end
