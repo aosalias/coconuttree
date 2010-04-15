@@ -5,10 +5,16 @@ module ApplicationHelper
   end
 
   def mouse_over_link(destination, title, menu)
-    link_to title, @controller.send(destination + "_path"), :onmouseover => "ShowMenu(#{menu});", :onmouseout => "HideMenu();"
+    link_to title, @controller.send(destination + "_path"), { :onmouseover => "ShowMenu(#{menu});", :onmouseout => "HideMenu();" }
 #    method = foo_path
 #    logger.info 'foooooooooooooooo\n\n\n\n\n\n' + instance_variables.join(', ') + @controller.methods.join(', ')
 #    <a href="http://www.coconuttreedivers.com/diving/index.php" onmouseover="ShowMenu('diving');" onmouseout="HideMenu();">Dive Packages</a>
 
+  end
+
+  def course_sub_menu(type)
+    Course.send(type).map do |course|
+      link_to course.title, course_path(course.id), { :onmouseover => "ShowMenu(#{type});", :onmouseout => "HideMenu();" }
+    end.join(' ')
   end
 end
