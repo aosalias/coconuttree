@@ -43,7 +43,7 @@ function ShowMenu( menuid )
 	}
 }
 
-function Hide() 
+function Hide()
 {
 	if (activemenu){
 		activemenu.style.visibility = "hidden";
@@ -55,5 +55,5 @@ function Hide()
 
 function HideMenu()
 {
-	menutimer = setTimeout( "Hide()", 250 );
+	menutimer = setTimeout( "Hide()", 4000 );
 }
