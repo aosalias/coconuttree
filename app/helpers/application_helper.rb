@@ -17,4 +17,5 @@ module ApplicationHelper
       link_to course.title, course_path(course.id), { :onmouseover => "ShowMenu(#{type});", :onmouseout => "HideMenu();" }
     end.join(' ')
   end
+
 end
