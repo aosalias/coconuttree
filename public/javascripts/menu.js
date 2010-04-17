@@ -55,5 +55,5 @@ function Hide()
 
 function HideMenu()
 {
-	menutimer = setTimeout( "Hide()", 4000 );
+	menutimer = setTimeout( "Hide()", 250 );
 }
