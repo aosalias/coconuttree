@@ -18,31 +18,34 @@
           </td></tr>
             <tr><td>
               <%= mouse_over_image 'rec' %>
-              <a href="http://www.coconuttreedivers.com/rec/index.php" onmouseover="ShowMenu('rec');" onmouseout="HideMenu();">PADI Dive Courses</a>
+              <%= link_to 'PADI Dive Courses', rec_courses_path, :onmouseover => "ShowMenu('rec');", :onmouseout => "HideMenu();" %>
             <div class="dropdown" id="rec">
-              <a href="http://www.coconuttreedivers.com/rec/index.php" onmouseover="ShowMenu('rec');" onmouseout="HideMenu();">PADI Dive Courses</a>
+              <%= link_to 'PADI Dive Courses', rec_courses_path, :onmouseover => "ShowMenu('rec');", :onmouseout => "HideMenu();" %>
               <%= course_sub_menu('rec') %>
             </div></td></tr>
 
             <tr><td>
               <%= mouse_over_image 'spec' %>
-              <a href="http://www.coconuttreedivers.com/spec/index.php" onmouseover="ShowMenu('spec');" onmouseout="HideMenu();">Specialty Courses</a>
-            <div class="dropdown" id="spec"><a href="http://www.coconuttreedivers.com/spec/index.php" onmouseover="ShowMenu('spec');" onmouseout="HideMenu();">Specialty Courses</a>
+              <%= link_to 'Specialty Courses', spec_courses_path, :onmouseover => "ShowMenu('spec');", :onmouseout => "HideMenu();" %>
+
+            <div class="dropdown" id="spec">
+              <%= link_to 'Specialty Courses', spec_courses_path, :onmouseover => "ShowMenu('spec');", :onmouseout => "HideMenu();" %>
               <%= course_sub_menu('spec') %>
             </div></td></tr>
 
           <tr><td>
               <%= mouse_over_image 'pro' %>
-              <a href="http://www.coconuttreedivers.com/pro/index.php" onmouseover="ShowMenu('pro');" onmouseout="HideMenu();">Go Pro</a>
+            <%= link_to 'Go Pro', pro_courses_path, :onmouseover => "ShowMenu('pro');", :onmouseout => "HideMenu();" %>
             <div class="dropdown" id="pro">
-              <a href="http://www.coconuttreedivers.com/pro/index.php" onmouseover="ShowMenu('pro');" onmouseout="HideMenu();">Go Pro</a>
+              <%= link_to 'Go Pro', pro_courses_path, :onmouseover => "ShowMenu('pro');", :onmouseout => "HideMenu();" %>
               <%= course_sub_menu('pro') %>
             </div></td></tr>
 
             <tr><td>
               <%= mouse_over_image 'tec' %>
-              <a href="http://www.coconuttreedivers.com/tec/index.php" onmouseover="ShowMenu('tec');" onmouseout="HideMenu();">Tec Diving</a>
-            <div class="dropdown" id="tec"><a href="http://www.coconuttreedivers.com/tec/index.php" onmouseover="ShowMenu('tec');" onmouseout="HideMenu();">Tec Diving</a>
+              <%= link_to 'Tec Diving', tec_courses_path, :onmouseover => "ShowMenu('tec');", :onmouseout => "HideMenu();" %>
+            <div class="dropdown" id="tec">
+              <%= link_to 'Tec Diving', tec_courses_path, :onmouseover => "ShowMenu('tec');", :onmouseout => "HideMenu();" %>
               <%= course_sub_menu('tec') %>
             </div></td></tr>
 
