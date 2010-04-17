@@ -17,7 +17,7 @@ function LoadOffImg( menuid )
 	if (img = document.getElementById(imgname)){
 		img.src = "../images/links/popout_off.gif";
 		img.style.zIndex = 50;
-		img.style.marginLeft = 	"142px";		
+		img.style.marginLeft = 	"142px";
 	}
 }
 
@@ -27,7 +27,7 @@ var activemenu = null;
 var activemenuid = null;
 var menutimer = null;
 
-function ShowMenu( menuid ) 
+function ShowMenu( menuid )
 {
 	if (!menutimer) {
 		activemenu = document.getElementById( menuid );
