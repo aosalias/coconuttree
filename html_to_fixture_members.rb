@@ -90,6 +90,53 @@ while(id+=1) do
   break if key == "aly_wilson:"
 end
 
+read = File.open("/home/aosalias/www/ctd/www.coconuttreedivers.com/grads/index.php", 'r')
+data = Iconv.conv('UTF-8', 'LATIN1', read.read)
+start = endrange = 0
+
+while(id+=1) do
+  member = {}
+  member['id'] = id
+
+  start = data.index(/(<a name=")(.*?)(\.jpg)">/i, endrange)
+  endrange = data.index('"><', start)
+  real = data[start+9, endrange-start-9]
+
+  if real.include?('row')
+    start = data.index(/(<a name=")(.*?)(\.jpg)">/i, endrange)
+    endrange = data.index('"><', start)
+    real = data[start+9, endrange-start-9]
+  end
+
+  member['avatar_file_name'] = real
+
+  start = data.index(/(<div class="caption")(.*?)(<\/div>)/i, endrange)
+  endrange = data.index(/(<\/b>)/, start)
+  real = data[start+24, endrange-start-24]
+  key = real.downcase.gsub(' ', '_' ) + ":"
+  member['name'] = real
+
+  start = data.index(/(<br \/>)(.*?)(<\/div>)/i, endrange)
+  endrange = data.index(/(<\/div>)/, start)
+  real = data[start+6, endrange-start-6]
+  member['country'] = real
+  member['position'] = 'grad'
+
+  member['title'] = case id
+    when 1...28 then 'cult_leader'
+    when 28...47 then 'instructor'
+    when 47...95 then 'divemaster'
+    else 'tec'
+  end
+
+  unless members[key]
+    members[key] = member
+    puts member.inspect
+  end
+
+  break if id == 99
+end
+
 
 write.puts members.to_yaml
 write.close
