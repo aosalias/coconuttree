@@ -1,0 +1,29 @@
+<% title "Sites" %>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Min Depth</th>
+    <th>Max Depth</th>
+    <th>Avg Depth</th>
+    <th>Nitrox Mix</th>
+    <th>Difficulty</th>
+  </tr>
+  <% for site in @sites %>
+    <tr>
+      <td><%=h site.name %></td>
+      <td><%=h site.description %></td>
+      <td><%=h site.min_depth %></td>
+      <td><%=h site.max_depth %></td>
+      <td><%=h site.avg_depth %></td>
+      <td><%=h site.nitrox_mix %></td>
+      <td><%=h site.difficulty %></td>
+      <td><%= link_to "Show", site %></td>
+      <td><%= link_to "Edit", edit_site_path(site) %></td>
+      <td><%= link_to "Destroy", site, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Site", new_site_path %></p>

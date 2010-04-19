@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100417203356) do
+ActiveRecord::Schema.define(:version => 20100419202235) do
 
   create_table "courses", :force => true do |t|
     t.string   "title"
@@ -23,12 +23,6 @@ ActiveRecord::Schema.define(:version => 20100417203356) do
     t.datetime "updated_at"
   end
 
-  create_table "dives", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "members", :force => true do |t|
     t.string   "name"
     t.string   "country"
@@ -36,6 +30,18 @@ ActiveRecord::Schema.define(:version => 20100417203356) do
     t.string   "position"
     t.string   "avatar_file_name"
     t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "sites", :force => true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.string   "min_depth"
+    t.string   "max_depth"
+    t.string   "avg_depth"
+    t.string   "nitrox_mix"
+    t.string   "difficulty"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

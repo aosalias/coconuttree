@@ -53,7 +53,7 @@ course['prereqs'] = real
 #write.puts( '  image_path:  "dsd_big.jpg"')
 course['image_path'] = 'dsd_big.jpg'
 
-start = data.index('<!-- End table formatter -->') + 28
+start = data.index('') + 28
 endrange = data.index('<div id="lower">') - 1907
 real = data[start, endrange-start]
 #write.puts( '  description:  "' + real + '"')
@@ -142,7 +142,7 @@ course = {}
 #      write.puts( '  image_path:  "' + image_path + '"')
       course['image_path'] = image_path
 
-      start = data.index('<!-- End table formatter -->') + 28
+      start = data.index('') + 28
       endrange = data.index('<div id="lower">') - 1907
       real = data[start, endrange-start]
 #      write.puts( ('  description:  "' + real.gsub(//n/r/, "/n  ") + '"'))

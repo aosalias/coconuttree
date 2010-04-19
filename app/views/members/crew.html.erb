@@ -45,7 +45,7 @@
 </tr>
 </table>
 </div>
-<!-- End table formatter -->
+
 <hr />
 <a name="Management"></a><div class="title">Management</div>
 
@@ -65,22 +65,22 @@
 
 <p class="totop"><a href="#top">Return to top</a></p>
 <hr />
-<a name="Support Staff"></a><div class="title">Support Staff</div>
+<a name="Support_Staff"></a><div class="title">Support Staff</div>
 
   <%= render :partial => 'crew_member', :collection => Member.support %>
 
 <p class="totop"><a href="#top">Return to top</a></p>
 <hr />
-<div class="title">Current Divemaster Trainees</div>
+<a name="Divemaster_Interns"></a><div class="title">Current Divemaster Trainees</div>
 
 <div class="tableformatter" style="position: relative;">
 <table width="520" cellspacing="0" cellpadding="0" border="0" class="darkblue">
 
-  <%= render :partial => 'dmt_row', :collection => Member.dmts_in_threes %>
+  <%= render :partial => 'member_row', :collection => Member.members_in_threes('students') %>
 
 </table>
 </div>
-<!-- End table formatter -->
+
 <p class="totop"><a href="#top">Return to top</a></p>
 
 

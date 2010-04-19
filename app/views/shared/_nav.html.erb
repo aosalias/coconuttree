@@ -54,15 +54,26 @@
 
             <tr><td>
               <%= mouse_over_image 'crew' %>
-              <a href="http://www.coconuttreedivers.com/crew/index.php" onmouseover="ShowMenu('crew');" onmouseout="HideMenu();">Our Crew</a>
-            <div class="dropdown" id="crew"><a href="http://www.coconuttreedivers.com/crew/index.php" onmouseover="ShowMenu('crew');" onmouseout="HideMenu();">Our Crew</a>
-
-            <a href="http://www.coconuttreedivers.com/crew/index.php#Management" onmouseover="ShowMenu('crew');" onmouseout="HideMenu();">Management</a><a href="http://www.coconuttreedivers.com/crew/index.php#Captains" onmouseover="ShowMenu('crew');" onmouseout="HideMenu();">Captains</a><a href="http://www.coconuttreedivers.com/crew/index.php#Instructors" onmouseover="ShowMenu('crew');" onmouseout="HideMenu();">Instructors</a><a href="http://www.coconuttreedivers.com/crew/index.php#Support_Staff" onmouseover="ShowMenu('crew');" onmouseout="HideMenu();">Support Staff</a><a href="http://www.coconuttreedivers.com/crew/index.php#Divemaster_Interns" onmouseover="ShowMenu('crew');" onmouseout="HideMenu();">Divemaster Interns</a></div></td></tr>
+              <%= link_to 'Our Crew', crew_members_path, :onmouseover => "ShowMenu('crew');", :onmouseout => "HideMenu();" %>
+            <div class="dropdown" id="crew">
+              <%= link_to 'Our Crew', crew_members_path, :onmouseover => "ShowMenu('crew');", :onmouseout => "HideMenu();" %>
+              <%= link_to 'Management', crew_members_path(:anchor => 'Management'), :onmouseover => "ShowMenu('crew');", :onmouseout => "HideMenu();" %>
+              <%= link_to 'Captains', crew_members_path(:anchor => 'Captains'), :onmouseover => "ShowMenu('crew');", :onmouseout => "HideMenu();" %>
+              <%= link_to 'Instructors', crew_members_path(:anchor => 'Instructors'), :onmouseover => "ShowMenu('crew');", :onmouseout => "HideMenu();" %>
+              <%= link_to 'Support Staff', crew_members_path(:anchor => 'Support_Staff'), :onmouseover => "ShowMenu('crew');", :onmouseout => "HideMenu();" %>
+              <%= link_to 'Divemaster Interns', crew_members_path(:anchor => 'Divemaster_Interns'), :onmouseover => "ShowMenu('crew');", :onmouseout => "HideMenu();" %>
+            </div></td></tr>
             <tr><td>
               <%= mouse_over_image 'grads' %>
-              <a href="http://www.coconuttreedivers.com/grads/index.php" onmouseover="ShowMenu('grads');" onmouseout="HideMenu();">Our Graduates</a>
-            <div class="dropdown" id="grads"><a href="http://www.coconuttreedivers.com/grads/index.php" onmouseover="ShowMenu('grads');" onmouseout="HideMenu();">Our Graduates</a>
-            <a href="http://www.coconuttreedivers.com/grads/index.php#leader" onmouseover="ShowMenu('grads');" onmouseout="HideMenu();">Cult Leaders</a><a href="http://www.coconuttreedivers.com/grads/index.php#idc" onmouseover="ShowMenu('grads');" onmouseout="HideMenu();">IDC Graduates</a><a href="http://www.coconuttreedivers.com/grads/index.php#dm" onmouseover="ShowMenu('grads');" onmouseout="HideMenu();">Divemaster Graduates</a><a href="http://www.coconuttreedivers.com/grads/index.php#tec" onmouseover="ShowMenu('grads');" onmouseout="HideMenu();">Roatan Tec Team Graduates</a><a href="http://www.coconuttreedivers.com/grads/index.php#stamina" onmouseover="ShowMenu('grads');" onmouseout="HideMenu();">Stamina Test Perfect 20 Club</a></div></td></tr>
+              <%= link_to 'Our Graduates', grads_members_path, :onmouseover => "ShowMenu('grads');", :onmouseout => "HideMenu();" %>
+            <div class="dropdown" id="grads">
+              <%= link_to 'Our Graduates', grads_members_path, :onmouseover => "ShowMenu('grads');", :onmouseout => "HideMenu();" %>
+              <%= link_to 'Cult Leaders', grads_members_path(:anchor => 'leader'), :onmouseover => "ShowMenu('grads');", :onmouseout => "HideMenu();" %>
+              <%= link_to 'IDC Graduates', grads_members_path(:anchor => 'idc'), :onmouseover => "ShowMenu('grads');", :onmouseout => "HideMenu();" %>
+              <%= link_to 'Divemaster Graduates', grads_members_path(:anchor => 'dm'), :onmouseover => "ShowMenu('grads');", :onmouseout => "HideMenu();" %>
+              <%= link_to 'Roatan Tec Team Graduates', grads_members_path(:anchor => 'tecies'), :onmouseover => "ShowMenu('grads');", :onmouseout => "HideMenu();" %>
+              <%= link_to 'Stamina Test Perfect 20 Club', grads_members_path(:anchor => 'stamina'), :onmouseover => "ShowMenu('grads');", :onmouseout => "HideMenu();" %>
+            </div></td></tr>
             <tr><td>
               <%= mouse_over_image 'sites' %>
               <a href="http://www.coconuttreedivers.com/sites/index.php" onmouseover="ShowMenu('sites');" onmouseout="HideMenu();">Roatan Dive Sites</a>

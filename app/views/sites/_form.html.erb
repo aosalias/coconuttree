@@ -1,0 +1,32 @@
+<% form_for @site do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </p>
+  <p>
+    <%= f.label :min_depth %><br />
+    <%= f.text_field :min_depth %>
+  </p>
+  <p>
+    <%= f.label :max_depth %><br />
+    <%= f.text_field :max_depth %>
+  </p>
+  <p>
+    <%= f.label :avg_depth %><br />
+    <%= f.text_field :avg_depth %>
+  </p>
+  <p>
+    <%= f.label :nitrox_mix %><br />
+    <%= f.text_field :nitrox_mix %>
+  </p>
+  <p>
+    <%= f.label :difficulty %><br />
+    <%= f.text_field :difficulty %>
+  </p>
+  <p><%= f.submit "Submit" %></p>
+<% end %>

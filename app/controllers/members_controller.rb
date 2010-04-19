@@ -1,6 +1,10 @@
 class MembersController < ApplicationController
   def crew
-    @dmt_row = 0
+    @row = 0
+  end
+
+  def grads
+    @row = 0
   end
 
   def index

@@ -92,7 +92,7 @@ end
 
 read = File.open("/home/aosalias/www/ctd/www.coconuttreedivers.com/grads/index.php", 'r')
 data = Iconv.conv('UTF-8', 'LATIN1', read.read)
-start = endrange = 0
+endrange = 0
 
 while(id+=1) do
   member = {}
@@ -120,19 +120,20 @@ while(id+=1) do
   endrange = data.index(/(<\/div>)/, start)
   real = data[start+6, endrange-start-6]
   member['country'] = real
+
   member['position'] = 'grad'
 
   member['title'] = case id
-    when 1...28 then 'cult_leader'
-    when 28...47 then 'instructor'
+    when 1...29 then 'cult_leader'
+    when 29...47 then 'instructor'
     when 47...95 then 'divemaster'
-    else 'tec'
+    when 95...98 then 'tec'
+    else 'perfect'
   end
 
-  unless members[key]
-    members[key] = member
-    puts member.inspect
-  end
+  if members[key] then key.gsub!(':', "_#{ member['title'] }:") end
+
+  members[key] = member
 
   break if id == 99
 end

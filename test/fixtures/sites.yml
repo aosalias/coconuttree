@@ -1,0 +1,17 @@
+one:
+  name: MyString
+  description: MyText
+  min_depth: MyString
+  max_depth: MyString
+  avg_depth: MyString
+  nitrox_mix: MyString
+  difficulty: MyString
+
+two:
+  name: MyString
+  description: MyText
+  min_depth: MyString
+  max_depth: MyString
+  avg_depth: MyString
+  nitrox_mix: MyString
+  difficulty: MyString

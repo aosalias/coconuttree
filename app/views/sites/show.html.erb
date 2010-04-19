@@ -1,0 +1,36 @@
+<% title "Site" %>
+
+<p>
+  <strong>Name:</strong>
+  <%=h @site.name %>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%=h @site.description %>
+</p>
+<p>
+  <strong>Min Depth:</strong>
+  <%=h @site.min_depth %>
+</p>
+<p>
+  <strong>Max Depth:</strong>
+  <%=h @site.max_depth %>
+</p>
+<p>
+  <strong>Avg Depth:</strong>
+  <%=h @site.avg_depth %>
+</p>
+<p>
+  <strong>Nitrox Mix:</strong>
+  <%=h @site.nitrox_mix %>
+</p>
+<p>
+  <strong>Difficulty:</strong>
+  <%=h @site.difficulty %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_site_path(@site) %> |
+  <%= link_to "Destroy", @site, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", sites_path %>
+</p>

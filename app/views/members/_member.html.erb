@@ -1,0 +1,12 @@
+<a name="<%= member.first_name %>"></a>
+<a name="<%= member.avatar_file_name %>"></a>
+<div class="drawpicture" style="position: relative; width: 140px; margin: 10px 5px;">
+  <a onClick="PopupWindow('/images/members/<%= member.avatar_file_name %>',140,140);">
+    <%= image_tag 'members/' + member.avatar_file_name, :size => '140x140', :border => 0 %>
+  </a>
+  <div class="caption">
+    <b><%= member.name %></b>
+    <br />
+    <%= member.country %>
+  </div>
+</div>

@@ -1,4 +1,11 @@
 --- 
+"jody_tang:": 
+  position: grad
+  name: Jody Tang
+  avatar_file_name: jody_tang.jpg
+  title: divemaster
+  country: England
+  id: 69
 "jo_wood:": 
   position: grad
   name: Jo Wood
@@ -13,13 +20,6 @@
   title: divemaster
   country: Australia
   id: 65
-"jody_tang:": 
-  position: grad
-  name: Jody Tang
-  avatar_file_name: jody_tang.jpg
-  title: divemaster
-  country: England
-  id: 69
 "joe_o'donnell:": 
   position: grad
   name: Joe O'Donnell
@@ -47,6 +47,13 @@
   title: divemaster
   country: United States
   id: 81
+"kevin__mare:": 
+  position: grad
+  name: Kevin  Mare
+  avatar_file_name: Tempshot0105.jpg
+  title: divemaster
+  country: United States
+  id: 75
 "ragnhildur__seatter:": 
   position: dive_staff
   name: Ragnhildur  Seatter
@@ -60,13 +67,6 @@
     <br />A stint of volunteer marine research with Global Vision International in Mexico in 2007 put Roatan on her to-dive map.  Rags then went on to complete her Divemaster and Open Water Scuba Instructor training at Coconut Tree Divers in early 2009, eventually going on to teach her first Open Water course in French (also available in Spanish and Dutch).
     <br />
     <br />Out of the water, Rags loves playing poker, appreciating Flor de Cana rum and having confusingly multilingual conversations.</p>
-"kevin__mare:": 
-  position: grad
-  name: Kevin  Mare
-  avatar_file_name: Tempshot0105.jpg
-  title: divemaster
-  country: United States
-  id: 75
 "steven_zoni:": 
   position: grad
   name: Steven Zoni
@@ -74,13 +74,6 @@
   title: tec
   country: Canada
   id: 97
-"matt_howell:": 
-  position: grad
-  name: Matt Howell
-  avatar_file_name: matt.jpg
-  title: instructor
-  country: United States
-  id: 28
 "kristin_pietack:": 
   position: grad
   name: Kristin Pietack
@@ -88,6 +81,13 @@
   title: divemaster
   country: Germany
   id: 79
+"matt_howell:": 
+  position: grad
+  name: Matt Howell
+  avatar_file_name: matt.jpg
+  title: cult_leader
+  country: United States
+  id: 28
 "malleable_kitten:": 
   position: support
   name: Malleable Kitten
@@ -125,6 +125,13 @@
   title: divemaster
   country: Switzerland
   id: 86
+"jon_lawn_divemaster:": 
+  position: grad
+  name: Jon Lawn
+  avatar_file_name: jon_lawn.jpg
+  title: divemaster
+  country: England
+  id: 71
 "tree:": 
   position: manager
   name: "Tree "
@@ -138,6 +145,13 @@
     <br />Prior to becoming shop manager, Tree snapped pictures of fish and divers as the dive shop photographer. His amazing photographs adorn the shop walls and he frequently accompanies aspring <a href="../courses/spec.php#photo">underwater photographers</a> to help them line up the perfect shot.
     <br />
     <br />Tree graduated with Honors from the Seagull School of Management. He loves his country (just check out the tattoo on his chest) and helping the beautiful "bikinifish" that walk in the shop.</p>
+"jennifer_liew_divemaster:": 
+  position: grad
+  name: Jennifer Liew
+  avatar_file_name: jen.jpg
+  title: divemaster
+  country: Canada
+  id: 66
 "darren_vernon:": 
   position: grad
   name: Darren Vernon
@@ -145,6 +159,20 @@
   title: divemaster
   country: England
   id: 59
+"kim_capelli:": 
+  position: grad
+  name: Kim Capelli
+  avatar_file_name: kim_capelli.jpg
+  title: divemaster
+  country: United States
+  id: 76
+"lauren_schneidewind_instructor:": 
+  position: grad
+  name: Lauren Schneidewind
+  avatar_file_name: lauren_underwater.jpg
+  title: instructor
+  country: United States
+  id: 43
 "aly_wilson:": 
   position: student
   name: Aly Wilson
@@ -170,13 +198,13 @@
   title: divemaster
   country: Norway
   id: 49
-"kim_capelli:": 
+"brett_kroos_divemaster:": 
   position: grad
-  name: Kim Capelli
-  avatar_file_name: kim_capelli.jpg
+  name: Brett Kroos
+  avatar_file_name: brett3.jpg
   title: divemaster
-  country: United States
-  id: 76
+  country: Hong Kong
+  id: 52
 "mira_grbich:": 
   position: grad
   name: Mira Grbich
@@ -232,6 +260,20 @@
   title: instructor
   country: Australia
   id: 33
+"ragnhildur__seatter_divemaster:": 
+  position: grad
+  name: Ragnhildur  Seatter
+  avatar_file_name: rags_new.jpg
+  title: divemaster
+  country: Iceland
+  id: 85
+"matt_howell_divemaster:": 
+  position: grad
+  name: Matt Howell
+  avatar_file_name: matt.jpg
+  title: divemaster
+  country: United States
+  id: 83
 "jon_powlson:": 
   position: grad
   name: Jon Powlson
@@ -253,6 +295,13 @@
   country: United States
   title: Divemaster Trainee
   id: 24
+"britt_higgins_divemaster:": 
+  position: grad
+  name: Britt Higgins
+  avatar_file_name: britt.jpg
+  title: divemaster
+  country: United States
+  id: 53
 "alexandra_harper-brown:": 
   position: grad
   name: Alexandra Harper-Brown
@@ -271,9 +320,23 @@
   position: grad
   name: Lauren Schneidewind
   avatar_file_name: lauren_underwater.jpg
-  title: instructor
+  title: cult_leader
   country: United States
   id: 27
+"dane_voboril_perfect:": 
+  position: grad
+  name: Dane Voboril
+  avatar_file_name: dane.jpg
+  title: perfect
+  country: United States
+  id: 98
+"rolando_puerto_divemaster:": 
+  position: grad
+  name: Rolando Puerto
+  avatar_file_name: rolando.jpg
+  title: divemaster
+  country: Honduras
+  id: 87
 "gaynor_pook:": 
   position: manager
   name: Gaynor Pook
@@ -285,6 +348,13 @@
     <p>After traveling the world for many years searching for the right place to call home, Gay finally found her little piece of paradise on Roatan. In 1996 she learned to dive on Roatan's reef and met PJ. Five years later, she had had two beatuiful children, Sammy and Nina, a lovely house, and a dive shop.
     <br />
     <br />Gay, who generally handles customer service at Coconut Tree's reception desk, is always good for a delicious cup of tea and a solid laugh. As one of the founding directors of the <a href="http:/www.roatanmarinepark.com">Roatan Marine Park</a>, Gay juggles her time between addressing environmental issues, handling her kids social life, dealing with the shop boys, and keeping fresh on the latest Roatan gossip. She particuarly likes chasing hot young boys in her fast car whilst smoking marlboro lights. </p>
+"bob_van_beurden_divemaster:": 
+  position: grad
+  name: Bob Van Beurden
+  avatar_file_name: Bob.jpg
+  title: divemaster
+  country: Netherlands
+  id: 50
 "george_pinnace:": 
   position: dive_staff
   name: George Pinnace
@@ -341,6 +411,13 @@
   title: divemaster
   country: Bermuda
   id: 58
+"jisoo_han_divemaster:": 
+  position: grad
+  name: Jisoo Han
+  avatar_file_name: jisoo_badass.jpg
+  title: divemaster
+  country: South Korea
+  id: 67
 "pj_rowntree:": 
   position: manager
   name: PJ Rowntree
@@ -370,6 +447,13 @@
   title: divemaster
   country: United States
   id: 57
+"ragnhildur__seatter_instructor:": 
+  position: grad
+  name: Ragnhildur  Seatter
+  avatar_file_name: rags_new.jpg
+  title: instructor
+  country: Iceland
+  id: 45
 "james_gardner:": 
   position: grad
   name: James Gardner
@@ -402,6 +486,13 @@
   title: divemaster
   country: France
   id: 92
+"simon_buckley_divemaster:": 
+  position: grad
+  name: Simon Buckley
+  avatar_file_name: simon.jpg
+  title: divemaster
+  country: Ireland
+  id: 91
 "charlie:": 
   position: support
   name: "Charlie "
@@ -420,6 +511,20 @@
   country: Canada
   title: Divemaster Trainee
   id: 22
+"david_bischoff_divemaster:": 
+  position: grad
+  name: David Bischoff
+  avatar_file_name: bischoff.jpg
+  title: divemaster
+  country: United States
+  id: 60
+"kirk_hounsome_instructor:": 
+  position: grad
+  name: Kirk Hounsome
+  avatar_file_name: kirk_hounsome.jpg
+  title: instructor
+  country: Canada
+  id: 42
 "fred_hamilton:": 
   position: captain
   name: Fred Hamilton
@@ -428,13 +533,20 @@
   title: Boat Captain
   id: 5
   description: <p>Fred left his island when he was 21 years old to work on a cruise ship. After 15 years he left for the oil fields in the Gulf of Mexico and then to Italy to help build a new Port. After 7 years of running inter Island freighters he has returned to his Island to Captain Bottom Time. Fred loves fishing and his 17 grandchildren. </p>
-"kirk_hounsome:": 
+"matt_howell_instructor:": 
   position: grad
-  name: Kirk Hounsome
-  avatar_file_name: kirk_hounsome.jpg
-  title: cult_leader
-  country: Canada
-  id: 26
+  name: Matt Howell
+  avatar_file_name: matt.jpg
+  title: instructor
+  country: United States
+  id: 44
+"marco_alvarado_divemaster:": 
+  position: grad
+  name: Marco Alvarado
+  avatar_file_name: marcoa.jpg
+  title: divemaster
+  country: Honduras
+  id: 82
 "joel_andre:": 
   position: grad
   name: Joel Andre
@@ -442,6 +554,13 @@
   title: divemaster
   country: Canada
   id: 70
+"kirk_hounsome:": 
+  position: grad
+  name: Kirk Hounsome
+  avatar_file_name: kirk_hounsome.jpg
+  title: cult_leader
+  country: Canada
+  id: 26
 "brandon_covey:": 
   position: grad
   name: Brandon Covey
@@ -463,6 +582,13 @@
   title: tec
   country: Belize
   id: 96
+"kristen_gunderson:": 
+  position: grad
+  name: Kristen Gunderson
+  avatar_file_name: kristen.jpg
+  title: divemaster
+  country: United States
+  id: 78
 "harry_kolterman:": 
   position: grad
   name: Harry Kolterman
@@ -477,13 +603,13 @@
   country: United States
   title: Divemaster Trainee
   id: 23
-"kristen_gunderson:": 
+"dan_ross_divemaster:": 
   position: grad
-  name: Kristen Gunderson
-  avatar_file_name: kristen.jpg
+  name: Dan Ross
+  avatar_file_name: dan.jpg
   title: divemaster
-  country: United States
-  id: 78
+  country: Australia
+  id: 56
 "tim_haywaid:": 
   position: grad
   name: Tim Haywaid
@@ -491,6 +617,13 @@
   title: divemaster
   country: Australia
   id: 94
+"kirk_hounsome_divemaster:": 
+  position: grad
+  name: Kirk Hounsome
+  avatar_file_name: kirk_hounsome.jpg
+  title: divemaster
+  country: Canada
+  id: 77
 "david_bischoff:": 
   position: grad
   name: David Bischoff
@@ -530,6 +663,20 @@
   title: divemaster
   country: Denmark
   id: 93
+"lauren_schneidewind_divemaster:": 
+  position: grad
+  name: Lauren Schneidewind
+  avatar_file_name: lauren_underwater.jpg
+  title: divemaster
+  country: United States
+  id: 80
+"kelsey_rogers:": 
+  position: grad
+  name: Kelsey Rogers
+  avatar_file_name: kelsey_badass.jpg
+  title: divemaster
+  country: Canada
+  id: 74
 "bob_van_beurden:": 
   position: grad
   name: Bob Van Beurden
@@ -559,6 +706,13 @@
   title: Divemaster
   id: 13
   description: <p>A native Roatan islander, Rolando started diving the reef around his island three years ago. He completed his Divemaster certification at Coconut Tree in 2005 and now leads visiting divers around his favorite dive sites. Rolando loves driving his skiff, drinking rum, and impressing the ladies by diving headfirst into the reef.</p>
+"james_gardner_divemaster:": 
+  position: grad
+  name: James Gardner
+  avatar_file_name: james_gardner.jpg
+  title: divemaster
+  country: New Zealand
+  id: 64
 "steve_\"thescubageek\"_craig:": 
   position: support
   name: Steve "TheScubaGeek" Craig
@@ -578,13 +732,13 @@
   title: Shop Cat
   id: 17
   description: <p>Precious, a beautiful calico Honduran feline, adopted Coconut Tree as her new home after receiving a warm saucer of milk. She has since given birth to several litters of kittens and recently became a grandmother herself when one of her offspring had a litter at the shop. Precious loves sunbathing, curling up inside a towel, and <s>constantly getting pregnant</s> loving her kitten litter now that she's fixed.</p>
-"kelsey_rogers:": 
+"jonathan_ruder_perfect:": 
   position: grad
-  name: Kelsey Rogers
-  avatar_file_name: kelsey_badass.jpg
-  title: divemaster
+  name: Jonathan Ruder
+  avatar_file_name: canadian_jay.JPG
+  title: perfect
   country: Canada
-  id: 74
+  id: 99
 "ryan_hunter:": 
   position: grad
   name: Ryan Hunter
