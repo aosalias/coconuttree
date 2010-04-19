@@ -1,0 +1,251 @@
+--- 
+"sh!tty_k!tty:": 
+  position: support
+  name: Sh!tty K!tty
+  avatar_file_name: shitty_kitty.jpg
+  country: Honduras
+  title: Shop Cat
+  id: 18
+  description: "<p>Sh!tty K!tty earned her nickname from one unfortunate episode when she had an unexpected urge to poop all over Marc's shirt (her real name is Lala). Her attitude lives up to her moniker: She's grouchy, standoffish, and quick to claw any dog, cat, or human hand that approaches. She has a penchant for sneaking into the fin rack and giving divers a surprise swipe. Beware of the Sh!tty K!tty.</p>"
+"will_welbourn:": 
+  position: dive_staff
+  name: Will Welbourn
+  avatar_file_name: will.jpg
+  country: England
+  title: Course Director
+  id: 7
+  description: |-
+    <p>After learning to dive in Koh Phi Phi, Thailand, in 1995, Will explored the waters of Australia, Malaysia, Indonesia, Crete, Sri Lanka, Bocas del Toro, and the Corn Islands. Tired of his job as an accountant, he left sunny England in 2003 and completed his <a href="../pro/showcourse.php?abbr=dm">PADI Divemaster</a> and <a href="../pro/showcourse?abbr=ow">Open Water Scuba Instructor</a> certifications in Roatan.
+    <br />
+    <br />Will serves as Coconut Tree Diver's PADI Course Director, PADI/DSAT Tec Deep and Trimix Instructor Trainer, and Emergency First Response Instructor Trainer. He currently a PADI Instructor Trainer in the following specialties: <a href="../spec/showcourse.php?abbr=deep">Deep</a>, Night, <a href="../spec/showcourse.php?abbr=wrck">Wreck</a>, <a href="../courses/eanx.php">Enriched Air Nitrox</a>, <a href="../courses/spec.php#photo">Digital Underwater Photography</a>, Emergency O<sub>2</sub> Provider, Boat, Drift, Multilievel, Naturalist, <a href="../spec/showcourse.php?abbr=nav">Underwater Navigation</a>, Search and Recovery, Equipment, and Gas Blender.
+    <br />
+    <br />When not teaching PADI Instructor Development Courses or exploring the depths through Tec Diving, Will also works as Coconut Tree Diver's Retail Manager. Will loves sailing, shrimp Thai curry, and his fiancee Loren and dogs Deco and Dougal.</p>
+"ragnhildur__seatter:": 
+  position: dive_staff
+  name: Ragnhildur  Seatter
+  avatar_file_name: rags_new.jpg
+  country: Iceland
+  title: Open Water Scuba Instructor
+  id: 12
+  description: |-
+    <p>Rags first jumped into the water in 1999 in Thailand as a Junior Open Water Diver, and hasn't looked back since.
+    <br />
+    <br />A stint of volunteer marine research with Global Vision International in Mexico in 2007 put Roatan on her to-dive map.  Rags then went on to complete her Divemaster and Open Water Scuba Instructor training at Coconut Tree Divers in early 2009, eventually going on to teach her first Open Water course in French (also available in Spanish and Dutch).
+    <br />
+    <br />Out of the water, Rags loves playing poker, appreciating Flor de Cana rum and having confusingly multilingual conversations.</p>
+"fred_hamilton:": 
+  position: captain
+  name: Fred Hamilton
+  avatar_file_name: fred3.jpg
+  country: Honduras
+  title: Boat Captain
+  id: 5
+  description: <p>Fred left his island when he was 21 years old to work on a cruise ship. After 15 years he left for the oil fields in the Gulf of Mexico and then to Italy to help build a new Port. After 7 years of running inter Island freighters he has returned to his Island to Captain Bottom Time. Fred loves fishing and his 17 grandchildren. </p>
+"malleable_kitten:": 
+  position: support
+  name: Malleable Kitten
+  avatar_file_name: malley.jpg
+  country: Honduras
+  title: Shop Cat
+  id: 19
+  description: <p>Part feline, part putty, "Mally" is the living Honduran version of Gumby. The kitten of Sh!tty K!tty and grandkitten of Precious, Mally's gelatinous properties are due to the fact that all three cats share the same father. Adorable, cuddly, and insanely lazy, Mally can most likely be found collapsed on the dive shop office counter.</p>
+"precious:": 
+  position: support
+  name: "Precious "
+  avatar_file_name: precious.jpg
+  country: Honduras
+  title: Shop Cat
+  id: 17
+  description: <p>Precious, a beautiful calico Honduran feline, adopted Coconut Tree as her new home after receiving a warm saucer of milk. She has since given birth to several litters of kittens and recently became a grandmother herself when one of her offspring had a litter at the shop. Precious loves sunbathing, curling up inside a towel, and <s>constantly getting pregnant</s> loving her kitten litter now that she's fixed.</p>
+"steve_\"thescubageek\"_craig:": 
+  position: support
+  name: Steve "TheScubaGeek" Craig
+  avatar_file_name: keyboard.jpg
+  country: United States
+  title: Website Ninja
+  id: 14
+  description: |-
+    <p>Steve's diving addiction took hold with the first bubbles he blew in 2000. A PADI pro since 2004, Steve has spent most of his diving career exploring Roatan's reefs as part of the Coconut Tree Crew. His diving adventures have included Cozumel, Grand Cayman, British Virgin Islands, the Cornish Coast of England, Malaysia, and (his favorite) the shipwrecks off the North Carolina coast.
+    <br />
+    <br />Steve loves teaching the Rescue course and exploring the cave system around <a href="http://www.coconuttreedivers.com/sites/showsite.php?siteid=18">Hole in the Wall</a>. When not teaching diving or playing video games, Steve can be found huddled behind his laptop updating the Coconut Tree website or working on his own projects at <a href="http://www.thescubageek.com">TheScubaGeek.com</a>.</p>
+"tim_wyatt:": 
+  position: dive_staff
+  name: Tim Wyatt
+  avatar_file_name: elTipo.jpg
+  country: United States
+  title: Master Scuba Diver Trainer
+  id: 11
+  description: |-
+    <p>Escaping from the frozen version of water and choosing to be barefoot instead of wearing ski boots in Colorado, Tim "The Dude" began his professional diving career in Utila, Honduras in 2001 before coming to the Coconut Tree team in Roatan. After taking some time teaching scuba in Hawaii, Tim returned to the preferred, clearer waters of the Carribean.
+    <br />
+    <br />Tim enjoys teaching the Advanced Open Water courses and holds specialties in Nitrox, Deep, Night, and Navigation.</p>
+"chucky:": 
+  position: support
+  name: "Chucky "
+  avatar_file_name: chucky.jpg
+  country: Kazakhstan
+  title: Shop Mascot
+  id: 20
+  description: |-
+    <p>Chucky washed ashore one fateful morning in 2007. His algae-encrusted hair, sulfuric stench, and hideous face made him the perfect fit for Coconut Tree's shop mascot.
+    <br />
+    <br />Chucky is a notoriously poor diver who constantly gets lost on Rescue courses. When he's not lounging around on the ocean floor with his over-sized weight belt, he lurks around the side of the dive shop awaiting his next chance to go diving (or frighten new customers).</p>
+"rolando_puerto:": 
+  position: dive_staff
+  name: Rolando Puerto
+  avatar_file_name: rolando.jpg
+  country: Honduras
+  title: Divemaster
+  id: 13
+  description: <p>A native Roatan islander, Rolando started diving the reef around his island three years ago. He completed his Divemaster certification at Coconut Tree in 2005 and now leads visiting divers around his favorite dive sites. Rolando loves driving his skiff, drinking rum, and impressing the ladies by diving headfirst into the reef.</p>
+"jose_silva:": 
+  position: dive_staff
+  name: Jose Silva
+  avatar_file_name: jose_badass.jpg
+  country: El Salvador
+  title: Master Scuba Diver Trainer
+  id: 10
+  description: |-
+    <p>Jose starting diving in the chilly waters of Maryland in 1989. His diving career has included dives off Spain, Egypt, Thailand, Tanzania, Costa Rica, Israel, and Mozambique. After earning his Divemaster rating, he went to become an Open Water Scuba Instructor on Utila in 1999. He has been living and diving around Roatan since 2000.
+    <br />
+    <br />Jose currently holds specialities in Nitrox, Deep, Drift, Naturalist, and Night, and Digital Underwater Photography and Videography. He loves surfing, art, and shooting underwater videos.</p>
+"george_pinnace:": 
+  position: dive_staff
+  name: George Pinnace
+  avatar_file_name: george.jpg
+  country: Honduras
+  title: Open Water Scuba Instructor
+  id: 6
+  description: |-
+    <p>George was born and raised in Roatan. In 1996 he started working as a boat captain for the dolphin dives at Anthony's Key Resort in Sandy Bay. With a strong passion for the ocean he decided to complete his Open Water course in 1998. It wasn't long before he completed the Rescue Course. He worked as a waiter at Half Moon Bay Cabins, but missed the water so much on those sunny days, typical of Roatan, he pursued his Divemaster course with Tylls. Worked as a Divemaster for about five years and then met Will, "the best course directer on the island here at coconut tree" who took him through the Instructor Development Course/ Instructor Examination. George started working at Coconut Tree Divers in December 2009.
+    <br />
+    <br />He's done over 6000 dives in Roatan. He worked as a Divemaster for Anthony's Key Resort, Sueno Del Mar, Diver's at Play Liveaboard, the Mayan Princess, Seagrape Plantation, and Bay Island Beach Resort.</p>
+"carl_wagner:": 
+  position: captain
+  name: Carl Wagner
+  avatar_file_name: carl.jpg
+  country: Honduras
+  title: Boat Captain
+  id: 4
+  description: |-
+    <p>Captain Carl is a true Roatan icon. Born and raised on the island, his boat captain career kicked off at age sixteen while ferrying visitors to and from Anthony's Key Resort. By eighteen he was working full-time as a boat captain for various dive shops around West End. Over the last thirty years he has captained many different kinds of dive boats under all sorts of weather conditions. To quote the man himself, "almost all of my life has been spent on the water."
+    <br />
+    <br />Captain Carl has worked at Coconut Tree Divers since the shop's inception. Taking the helm of Bottom Time, he will drive you to all the sites in the Sandy Bay - West End Marine Reserve. Carl will also assist divers with equipment setup, entering and exiting the water, and making certain that everything about your dives goes as smoothly as possible. He loves to snack on chicken and tell crazy stories of yesteryears on Roatan. </p>
+"michelle_drevlow:": 
+  position: student
+  name: Michelle Drevlow
+  avatar_file_name: michelle.jpg
+  country: United States
+  title: Divemaster Trainee
+  id: 23
+"steve_vincent:": 
+  position: support
+  name: Steve Vincent
+  avatar_file_name: steve_vincent.jpg
+  country: United States
+  title: Handy Man
+  id: 15
+  description: |-
+    <p>When Steve Vincent first arrived to Roatan aboard a cruise ship, he knew he had found somewhere special. Years later, he officially left the frozen tundra of Green Bay, Wisconsin, driving his RV thousands of miles south to the Roatan's Caribbean shores.
+    <br />
+    <br />Steve has since converted his RV into Coconut Tree's bus. When the weather goes foul over Half Moon Bay, Steve helps haul dozens of tanks, scuba equipment, and divers to our boat on the south side. Steve loves diving in his spare time, making delicious hot pots of coffee, and pulling for the Green Bay Packers.</p>
+"monty_graham:": 
+  position: dive_staff
+  name: Monty Graham
+  avatar_file_name: monty2.jpg
+  country: Canada
+  title: Master Scuba Diver Trainer
+  id: 9
+  description: |-
+    <p><B>Deep & Trimix Technical Instructor</B>
+    <br />
+    <br />Monty's diving career began in 2001 when he was trained as a deep sea/commercial diver in Seattle, Washington. His diving adventures have carried him to Thailand, Malaysia, Singapore, Bahamas, Haiti, Jamaica, Puerto Rico, St. Martin, St. Thomas, Barbados, Bermuda, Cayman Isles, Antigua, Cozumel, Curacoa, Aruba, Venezuela, St. Lucia, and Canada. Monty is the Technical Deep and Trimix Instructor, 1 of 2 on Roatan
+    <br />
+    <br />Monty holds specialities in Deep, Night, Navigation, Nitrox, Drift, Gas Blender, Chamber Technician, and Emergency First Response. He likes to smoke cigars and chase fast women on his slow scooter whilst playing hockey.</p>
+"ben_van_zee:": 
+  position: student
+  name: Ben Van Zee
+  avatar_file_name: benvanzee.JPG
+  country: United States
+  title: Divemaster Trainee
+  id: 24
+"ian_\"lou_ferigno\"_gelb:": 
+  position: student
+  name: Ian "lou ferigno" Gelb
+  avatar_file_name: lou.jpg
+  country: Canada
+  title: Divemaster Trainee
+  id: 22
+"maryam_miller:": 
+  position: student
+  name: Maryam Miller
+  avatar_file_name: maryam.jpg
+  country: United States
+  title: Divemaster Trainee
+  id: 21
+"gaynor_pook:": 
+  position: manager
+  name: Gaynor Pook
+  avatar_file_name: gay22.jpg
+  country: Honduras
+  title: Owner
+  id: 2
+  description: |-
+    <p>After traveling the world for many years searching for the right place to call home, Gay finally found her little piece of paradise on Roatan. In 1996 she learned to dive on Roatan's reef and met PJ. Five years later, she had had two beatuiful children, Sammy and Nina, a lovely house, and a dive shop.
+    <br />
+    <br />Gay, who generally handles customer service at Coconut Tree's reception desk, is always good for a delicious cup of tea and a solid laugh. As one of the founding directors of the <a href="http:/www.roatanmarinepark.com">Roatan Marine Park</a>, Gay juggles her time between addressing environmental issues, handling her kids social life, dealing with the shop boys, and keeping fresh on the latest Roatan gossip. She particuarly likes chasing hot young boys in her fast car whilst smoking marlboro lights. </p>
+"aly_wilson:": 
+  position: student
+  name: Aly Wilson
+  avatar_file_name: alydmt.JPG
+  country: United States
+  title: Divemaster Trainee
+  id: 25
+"tree:": 
+  position: manager
+  name: "Tree "
+  avatar_file_name: tree.jpg
+  country: Canada
+  title: Manager
+  id: 3
+  description: |-
+    <p>Tree comes from Canada and wears many different hats around Coconut Tree Divers: repairing equipment, filling tanks, and most of all helping customers with all of their needs. He's the guy that coordinates the show and is most likely the first person to greet you upon entering the shop. As a diver of over ten years, he knows what you'll need to get the most out of your diving experience on Roatan.
+    <br />
+    <br />Prior to becoming shop manager, Tree snapped pictures of fish and divers as the dive shop photographer. His amazing photographs adorn the shop walls and he frequently accompanies aspring <a href="../courses/spec.php#photo">underwater photographers</a> to help them line up the perfect shot.
+    <br />
+    <br />Tree graduated with Honors from the Seagull School of Management. He loves his country (just check out the tattoo on his chest) and helping the beautiful "bikinifish" that walk in the shop.</p>
+"pj_rowntree:": 
+  position: manager
+  name: PJ Rowntree
+  avatar_file_name: pj.jpg
+  country: England
+  title: Owner
+  id: 1
+  description: |-
+    <p>PJ comes from Hampshire in the UK. He started his diving career while as a fisherman, wanting to know more about the habitats of the underwater creatures he was catching. He learned to dive by exploring the shipwrecks in the chilly waters off the south coast of England in 1985. During his seven-year tenure in the Cayman Isles, he worked with several world-famous dive operations, including Jean-Michel Cousteau and the Cousteau Society.
+    <br />
+    <br />Looking for a quieter setting, he moved to Roatan in 1995 where he managed several dive operations around West End. He assumed the role of "The Boss" when he started his own dive shop at Coconut Tree Resort in 2002. As the owner of Coconut Tree Divers, his many specialties include equipment repair, compressor engineer, boat engineer, car mechanic, and father of two. He loves his wife Gaynor's cooking and takes every Sunday off to cheer on Dale Earnhart Jr. in the weekly NASCAR race.</p>
+"charlie:": 
+  position: support
+  name: "Charlie "
+  avatar_file_name: tree_with_puppy.jpg
+  country: Honduras
+  title: Dive Dog
+  id: 16
+  description: |-
+    <p>Charlie was recently rescued by Tree in a fairly poor condition. The lil' pup has since fattened up and become very playful under Tree's careful rearing.
+    <br />
+    <br />Undeniably adorable, Charlie will undoubtedly become another animal fixture at Coconut Tree Divers.</p>
+"marco_alvarado:": 
+  position: dive_staff
+  name: Marco Alvarado
+  avatar_file_name: marcoa.jpg
+  country: Honduras
+  title: IDC Staff Instructor
+  id: 8
+  description: |-
+    <p>Marco got certified at Coconut Tree Divers Aug 2005. Having discovered a new passion he eventually returned to complete the DM, IDC/IE courses in Feb 2007 and May 2007 respectively. On Sep 2007 he earned the PADI rating of MSDT. Staffed the September 2009 IDC here at Coconut Tree and earned the IDC Staff Instructor rating. A.I. anyone....
+    <br />
+    <br />Prior to diving he earned a BS in Psychology from the Univ. of Florida and a master's in Human Resource Development from Clemson Univ. He designed, developed, and delivered hands-on instructor-led computer software training at academia and in corporate environments. Served three years in the U.S. Army after 911 and ended up at Pulte Homes as a Customer Relations Manager. Eventually he traded the khaki slacks for shorts and the optional shoes lifestyle.
+    <br />
+    <br /></p>

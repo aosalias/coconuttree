@@ -1,0 +1,13 @@
+<div class="crew" style="clear: both; padding-bottom: 15px;">
+  <a name="<%= crew_member.first_name %>"></a>
+  <a name="<%= crew_member.avatar_file_name %>"></a>
+  <div class="drawpicture" style="position: relative; width: 160px; height: 160px; margin: 5px 5px; float: right;">
+    <a onClick="PopupWindow('/images/members/<%= crew_member.avatar_file_name %>',160,160);">
+      <%= image_tag 'members/' + crew_member.avatar_file_name, :size => '160x160' %>
+    </a>
+  </div>
+  <div class="subtitle"><%= crew_member.name %></div>
+  <div class="subinfo"><b><%= crew_member.title %></b><br /><b><%= crew_member.country %></b></div>
+  <%= crew_member.description %>
+
+</div>

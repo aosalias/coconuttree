@@ -1,0 +1,18 @@
+<tr id="row<%= @dmt_row %>" name="row<%= @dmt_row %>">
+  <a name="row<%= @dmt_row %>"></a>
+  <td class="oddrow_oddcol" colspan="1" align="center" valign="middle">
+    <%= render :partial => 'dmt', :object => dmt_row[0] %>
+  </td>
+  <% if dmt_row[1] %>
+    <td class="oddrow_evencol" colspan="1" align="center" valign="middle">
+      <%= render :partial => 'dmt', :object => dmt_row[1] %>
+    </td>
+  <% end %>
+
+  <% if dmt_row[2] %>
+    <td class="oddrow_oddcol" colspan="1" align="center" valign="middle">
+      <%= render :partial => 'dmt', :object => dmt_row[2] %>
+    </td>
+  <% end %>
+  <% @dmt_row += 1 %>
+</tr>

@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :members, :collection => { :crew => :get, :grads => :get }
+
   map.resources :courses, :collection => { :rec => :get, :spec => :get, :pro => :get, :tec => :get }
 
   map.root :controller => 'diving', :action => 'shop'

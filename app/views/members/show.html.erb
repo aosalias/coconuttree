@@ -1,0 +1,28 @@
+<% title "Member" %>
+
+<p>
+  <strong>Name:</strong>
+  <%=h @member.name %>
+</p>
+<p>
+  <strong>Country:</strong>
+  <%=h @member.country %>
+</p>
+<p>
+  <strong>Title:</strong>
+  <%=h @member.title %>
+</p>
+<p>
+  <strong>Avatar File Name:</strong>
+  <%=h @member.avatar_file_name %>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%=h @member.description %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_member_path(@member) %> |
+  <%= link_to "Destroy", @member, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", members_path %>
+</p>
