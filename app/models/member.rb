@@ -2,22 +2,22 @@ class Member < ActiveRecord::Base
   attr_accessible :name, :country, :title, :avatar_file_name, :description, :position
 
   named_scope :management, :conditions => ["position = 'manager'"]
-  named_scope :dive_staff, :conditions => ['position = "dive_staff"']
-  named_scope :captains, :conditions => ['position = "captain"']
-  named_scope :students, :conditions => ['position = "student"']
-  named_scope :grads, :conditions => ['position = "grad"']
-  named_scope :support, :conditions => ['position = "support"']
+  named_scope :dive_staff, :conditions => ["position = 'dive_staff'"]
+  named_scope :captains, :conditions => ["position = 'captain'"]
+  named_scope :students, :conditions => ["position = 'student'"]
+  named_scope :grads, :conditions => ["position = 'grad'"]
+  named_scope :support, :conditions => ["position = 'support'"]
 
-  named_scope :cult_leaders, :conditions => ['position = "grad" AND title = "cult_leader"']
-  named_scope :instructors, :conditions => ['position = "grad" AND title = "instructor"']
-  named_scope :divemasters, :conditions => ['position = "grad" AND title = "divemaster"']
-  named_scope :tecies, :conditions => ['position = "grad" AND title = "tec"']
-  named_scope :perfects, :conditions => ['position = "grad" AND title = "perfect"']
+  named_scope :cult_leaders, :conditions => ["position = 'grad' AND title = 'cult_leader'"]
+  named_scope :instructors, :conditions => ["position = 'grad' AND title = 'instructor'"]
+  named_scope :divemasters, :conditions => ["position = 'grad' AND title = 'divemaster'"]
+  named_scope :tecies, :conditions => ["position = 'grad' AND title = 'tec'"]
+  named_scope :perfects, :conditions => ["position = 'grad' AND title = 'perfect'"]
 
   def first_name
-    a = name.split(' ')
+    a = name.split(" ")
     a.slice!(-1) if a.size > 1
-    a.join(' ')
+    a.join(" ")
   end
 
   def self.members_in_threes(type)
