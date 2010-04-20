@@ -1,7 +1,7 @@
 class Member < ActiveRecord::Base
   attr_accessible :name, :country, :title, :avatar_file_name, :description, :position
 
-  named_scope :management, :conditions => ['position = "manager"']
+  named_scope :management, :conditions => ["position = 'manager'"]
   named_scope :dive_staff, :conditions => ['position = "dive_staff"']
   named_scope :captains, :conditions => ['position = "captain"']
   named_scope :students, :conditions => ['position = "student"']
